@@ -513,6 +513,7 @@ function deadFace_2(dedX_2, dedY_2) {
   text('💀',-27, -85);
   
   //SMOKE that comes with death 
+  noStroke();
   fill(255, 150);
   ellipse(-230, 160, 150, 90)
   ellipse(-200, 190, 150, 60)
